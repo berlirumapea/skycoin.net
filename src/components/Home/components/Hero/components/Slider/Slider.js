@@ -30,7 +30,8 @@ const SLIDE_OFFSET = 40;
 const ITEM_WIDTH = `${ITEM_WIDTH_VALUE}px`;
 
 const Intro = styled(Box)`
-  
+  display: flex;
+  justify-content: center;
   ${media.sm.css`
     background-color: ${rgba(16, 31, 52, 0.9)};
   `}
