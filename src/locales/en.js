@@ -655,6 +655,69 @@ export default {
     or: ' or ',
     react: 'React.js.',
     ourTeam: 'Our team is spread across the world and you will be working either remotely or at one of our offices in Shanghai. We communicate using',
+    accordion1: {
+      title: 'Technical writer',
+      responsibilities: {
+        title: 'Responsibilities',
+        item1: 'Work on a remote team to create articles to communicate technical progress to readers',
+        item2: 'Create and update technical documentation',
+        item3: 'Create user manuals for various Skycoin projects',
+      },
+      requirements: {
+        title: 'Requirements',
+        item1: 'Excellent English reading and writing skills as well as previous experience with technical writing.',
+        item2: 'Knowledge of concepts and technologies used in the software development process.',
+      },
+    },
+    accordion2: {
+      title: 'Software Engineer (Backend)',
+      description: 'Work on a fully remote team developing blockchain-, networking- and infrastructure-related software. Experience writing in Go (Golang) required.',
+      projects: {
+        title: 'A Sample of Active Projects',
+      },
+    },
+    accordion3: {
+      title: 'Firmware Engineer',
+      description: 'Work on a fully remote team developing firmware and embedded software for various hardware projects.',
+      projects: {
+        title: 'A Sample of Active Projects',
+      },
+    },
+    accordion4: {
+      title: 'Circuit Engineer',
+      description: 'Study relevant technical materials to compile the proper English materials for foreign members making up 80% of total team members. Good proficiency in English reading and writing is a requirement for admission.',
+      responsibilities: {
+        title: 'Responsibilities',
+        item1: 'Draw PCB Design drawing and circuit schematic diagram according to product requirements;',
+        item2: 'Edit the instruction documents for production, such as BOM format and screen mesh;',
+        item3: 'Carry out the selection of components and be in tune with suppliers on product supply;',
+        item4: 'Carry out type testing and reliability testing;',
+        item5: 'Write technical documents and file them.',
+      },
+      requirements: {
+        title: 'Requirements',
+        item1: "Hold a bachelor's degree or above in electronic engineering or related discipline;",
+        item2: 'Possess very strong English reading and writing skill in response to the search and quick study of technical materials and the daily conversation in an English-speaking environment;',
+        item3: 'Process the ability to proficiently design analog circuits and digital circuits, and read and draw schematic diagram skillfully;',
+        item4: 'Use Altium Designer or other same type software skillfully in response to the independent conduct for layout design of four-layer PCB board.',
+        item5: 'Possess the strong ability to circuit adjustment and test, and use common instruments skillfully;',
+        item6: 'Have a certain understanding of the model and supply chain of ordinary electronic components;',
+        item7: 'Think clearly, take initiative in working process, hold the ability in both strong executive and excellent self-study, and maintain good teamwork spirit.',
+      },
+      priority: {
+        title: 'High-priority candidates include those with any of the following conditions',
+        item1: 'Possess the ability to be familiar with English materials on Electronics Industry or the English-speaking proficiency;',
+        item2: 'Enable to use SolidWorks and other same types of 3D modeling software and to read mechanical drawings;',
+        item3: 'Have experience in the development of mechanical control programs, Raspberry Pi or Arduino;',
+        item4: 'Have knowledge or experience in any one of the following three sectors--- the Internet of things, communication, and integrated circuits;',
+        item5: 'Understand the knowledge of blockchain well;',
+      },
+      program: {
+        title: 'Internship Program',
+        item1: 'Submit at least one work about PCB Design, and relevant cites must be marked if any;',
+        item2: 'Welcome to all of outstanding undergraduates and fresh graduates to take part in internship plan. Upon completion of the internship period, satisfactory trainees shall be given permanent posts.',
+      },
+    },
     accordion5: {
       title: 'Mechanical Engineer',
       description: 'Description',
@@ -720,69 +783,6 @@ export default {
         title: 'Internship Program',
         item1: 'Submit at least one design work completed independently and its introduction;',
         item2: 'Welcome to all of outstanding undergraduates and fresh graduates to take part in internship plan. Upon completion of the internship period, satisfactory trainees shall be given permanent posts.',
-      },
-    },
-    accordion4: {
-      title: 'Circuit Engineer',
-      description: 'Study relevant technical materials to compile the proper English materials for foreign members making up 80% of total team members. Good proficiency in English reading and writing is a requirement for admission.',
-      responsibilities: {
-        title: 'Responsibilities',
-        item1: 'Draw PCB Design drawing and circuit schematic diagram according to product requirements;',
-        item2: 'Edit the instruction documents for production, such as BOM format and screen mesh;',
-        item3: 'Carry out the selection of components and be in tune with suppliers on product supply;',
-        item4: 'Carry out type testing and reliability testing;',
-        item5: 'Write technical documents and file them.',
-      },
-      requirements: {
-        title: 'Requirements',
-        item1: "Hold a bachelor's degree or above in electronic engineering or related discipline;",
-        item2: 'Possess very strong English reading and writing skill in response to the search and quick study of technical materials and the daily conversation in an English-speaking environment;',
-        item3: 'Process the ability to proficiently design analog circuits and digital circuits, and read and draw schematic diagram skillfully;',
-        item4: 'Use Altium Designer or other same type software skillfully in response to the independent conduct for layout design of four-layer PCB board.',
-        item5: 'Possess the strong ability to circuit adjustment and test, and use common instruments skillfully;',
-        item6: 'Have a certain understanding of the model and supply chain of ordinary electronic components;',
-        item7: 'Think clearly, take initiative in working process, hold the ability in both strong executive and excellent self-study, and maintain good teamwork spirit.',
-      },
-      priority: {
-        title: 'High-priority candidates include those with any of the following conditions',
-        item1: 'Possess the ability to be familiar with English materials on Electronics Industry or the English-speaking proficiency;',
-        item2: 'Enable to use SolidWorks and other same types of 3D modeling software and to read mechanical drawings;',
-        item3: 'Have experience in the development of mechanical control programs, Raspberry Pi or Arduino;',
-        item4: 'Have knowledge or experience in any one of the following three sectors--- the Internet of things, communication, and integrated circuits;',
-        item5: 'Understand the knowledge of blockchain well;',
-      },
-      program: {
-        title: 'Internship Program',
-        item1: 'Submit at least one work about PCB Design, and relevant cites must be marked if any;',
-        item2: 'Welcome to all of outstanding undergraduates and fresh graduates to take part in internship plan. Upon completion of the internship period, satisfactory trainees shall be given permanent posts.',
-      },
-    },
-    accordion2: {
-      title: 'Software Engineer (Backend)',
-      description: 'Work on a fully remote team developing blockchain-, networking- and infrastructure-related software. Experience writing in Go (Golang) required.',
-      projects: {
-        title: 'A Sample of Active Projects',
-      },
-    },
-    accordion3: {
-      title: 'Firmware Engineer',
-      description: 'Work on a fully remote team developing firmware and embedded software for various hardware projects.',
-      projects: {
-        title: 'A Sample of Active Projects',
-      },
-    },
-    accordion1: {
-      title: 'Technical writer',
-      responsibilities: {
-        title: 'Responsibilities',
-        item1: 'Work on a remote team to create articles to communicate technical progress to readers',
-        item2: 'Create and update technical documentation',
-        item3: 'Create user manuals for various Skycoin projects',
-      },
-      requirements: {
-        title: 'Requirements',
-        item1: 'Excellent English reading and writing skills as well as previous experience with technical writing.',
-        item2: 'Knowledge of concepts and technologies used in the software development process.',
       },
     },
     accordion7: {

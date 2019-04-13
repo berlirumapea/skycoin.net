@@ -38,13 +38,14 @@ const Wrapper = styled(Box)`
 
 const Logos = styled(Flex)`
   border-top: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  justify-content: center;
 `;
 
 const LogoWrapper = styled(Box)`
   flex-wrap: wrap;
   text-align: center;
   padding: ${rem(SPACE[2])};
-
   ${media.md.css`
     padding: ${rem(SPACE[2])} ${rem(SPACE[6])};
   `};
@@ -71,13 +72,17 @@ const Quote = styled.blockquote`
   margin-bottom: 0.5em;
   padding-top: 0.5rem;
   padding-left: 2rem;
-  padding-right: 3rem;
+  padding-right: 1rem;
   text-transform: none;
   
   a, a:visited, a:focus, a:hover, a:active {
     color: ${COLOR.white};
     text-decoration: none;
   }
+
+  ${media.md.css`
+    padding-right: 3rem;
+  `}
   
   &:before {
     content: '\\201c';
