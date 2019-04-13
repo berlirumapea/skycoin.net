@@ -128,251 +128,163 @@ const Bold = styled.span`
   font-weight: 600;
 `;
 
-const renderAccordion1Content = () => (
+const renderAccordion5Content = () => (
   <div>
     <Subtitle fontSize={[1, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion1.description" />
+      <FormattedMessage id="jobs.accordion5.description" />
     </Subtitle>
     <Text fontSize={[2]} color="black" heavy mb={[6]}>
-      <FormattedMessage id="jobs.accordion1.study" />
+      <FormattedMessage id="jobs.accordion5.study" />
     </Text>
 
     <Subtitle fontSize={[1, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion1.responsibilities.title" />
+      <FormattedMessage id="jobs.accordion5.responsibilities.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.responsibilities.item1" />
+        <FormattedMessage id="jobs.accordion5.responsibilities.item1" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.responsibilities.item2" />
+        <FormattedMessage id="jobs.accordion5.responsibilities.item2" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.responsibilities.item3" />
+        <FormattedMessage id="jobs.accordion5.responsibilities.item3" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.responsibilities.item4" />
+        <FormattedMessage id="jobs.accordion5.responsibilities.item4" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.responsibilities.item5" />
+        <FormattedMessage id="jobs.accordion5.responsibilities.item5" />
       </NumberedListItem>
     </NumberedList>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion1.requirements.title" />
+      <FormattedMessage id="jobs.accordion5.requirements.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.requirements.item2" />
+        <FormattedMessage id="jobs.accordion5.requirements.item2" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.requirements.item3" />
+        <FormattedMessage id="jobs.accordion5.requirements.item3" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.requirements.item4" />
+        <FormattedMessage id="jobs.accordion5.requirements.item4" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.requirements.item5" />
+        <FormattedMessage id="jobs.accordion5.requirements.item5" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.requirements.item6" />
+        <FormattedMessage id="jobs.accordion5.requirements.item6" />
       </NumberedListItem>
     </NumberedList>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion1.priority.title" />
+      <FormattedMessage id="jobs.accordion5.priority.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.priority.item1" />
+        <FormattedMessage id="jobs.accordion5.priority.item1" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.priority.item2" />
+        <FormattedMessage id="jobs.accordion5.priority.item2" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.priority.item3" />
+        <FormattedMessage id="jobs.accordion5.priority.item3" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.priority.item4" />
+        <FormattedMessage id="jobs.accordion5.priority.item4" />
       </NumberedListItem>
     </NumberedList>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion1.propgram.title" />
+      <FormattedMessage id="jobs.accordion5.propgram.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.propgram.item1" />
+        <FormattedMessage id="jobs.accordion5.propgram.item1" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion1.propgram.item2" />
+        <FormattedMessage id="jobs.accordion5.propgram.item2" />
       </NumberedListItem>
     </NumberedList>
   </div>
 );
-const renderAccordion2Content = () => (
+const renderAccordion6Content = () => (
   <div>
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion2.description" />
+      <FormattedMessage id="jobs.accordion6.description" />
     </Subtitle>
     <Text fontSize={[2]} color="black" heavy mb={[6]}>
-      <FormattedMessage id="jobs.accordion2.subtitle" />
+      <FormattedMessage id="jobs.accordion6.subtitle" />
     </Text>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion2.responsibilities.title" />
+      <FormattedMessage id="jobs.accordion6.responsibilities.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.responsibilities.item1" />
+        <FormattedMessage id="jobs.accordion6.responsibilities.item1" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.responsibilities.item2" />
+        <FormattedMessage id="jobs.accordion6.responsibilities.item2" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.responsibilities.item3" />
+        <FormattedMessage id="jobs.accordion6.responsibilities.item3" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.responsibilities.item4" />
+        <FormattedMessage id="jobs.accordion6.responsibilities.item4" />
       </NumberedListItem>
     </NumberedList>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion2.requirements.title" />
+      <FormattedMessage id="jobs.accordion6.requirements.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.requirements.item2" />
+        <FormattedMessage id="jobs.accordion6.requirements.item2" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.requirements.item3" />
+        <FormattedMessage id="jobs.accordion6.requirements.item3" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.requirements.item4" />
+        <FormattedMessage id="jobs.accordion6.requirements.item4" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.requirements.item5" />
+        <FormattedMessage id="jobs.accordion6.requirements.item5" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.requirements.item6" />
+        <FormattedMessage id="jobs.accordion6.requirements.item6" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.requirements.item7" />
+        <FormattedMessage id="jobs.accordion6.requirements.item7" />
       </NumberedListItem>
     </NumberedList>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion2.priority.title" />
+      <FormattedMessage id="jobs.accordion6.priority.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.priority.item1" />
+        <FormattedMessage id="jobs.accordion6.priority.item1" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.priority.item2" />
+        <FormattedMessage id="jobs.accordion6.priority.item2" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.priority.item3" />
+        <FormattedMessage id="jobs.accordion6.priority.item3" />
       </NumberedListItem>
     </NumberedList>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion2.program.title" />
+      <FormattedMessage id="jobs.accordion6.program.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.program.item1" />
+        <FormattedMessage id="jobs.accordion6.program.item1" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion2.program.item2" />
-      </NumberedListItem>
-    </NumberedList>
-  </div>
-);
-const renderAccordion3Content = () => (
-  <div>
-    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion2.description" />
-    </Subtitle>
-    <Text fontSize={[2]} color="black" heavy mb={[6]}>
-      <FormattedMessage id="jobs.accordion3.description" />
-    </Text>
-
-    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion3.responsibilities.title" />
-    </Subtitle>
-    <NumberedList>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.responsibilities.item1" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.responsibilities.item2" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.responsibilities.item3" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.responsibilities.item4" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.responsibilities.item5" />
-      </NumberedListItem>
-    </NumberedList>
-
-    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion3.requirements.title" />
-    </Subtitle>
-    <NumberedList>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.requirements.item2" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.requirements.item3" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.requirements.item4" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.requirements.item5" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.requirements.item6" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.requirements.item7" />
-      </NumberedListItem>
-    </NumberedList>
-
-    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion3.priority.title" />
-    </Subtitle>
-    <NumberedList>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.priority.item1" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.priority.item2" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.priority.item3" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.priority.item4" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.priority.item5" />
-      </NumberedListItem>
-    </NumberedList>
-
-    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion3.program.title" />
-    </Subtitle>
-    <NumberedList>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.program.item1" />
-      </NumberedListItem>
-      <NumberedListItem>
-        <FormattedMessage id="jobs.accordion3.program.item2" />
+        <FormattedMessage id="jobs.accordion6.program.item2" />
       </NumberedListItem>
     </NumberedList>
   </div>
@@ -380,14 +292,102 @@ const renderAccordion3Content = () => (
 const renderAccordion4Content = () => (
   <div>
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion2.description" />
+      <FormattedMessage id="jobs.accordion6.description" />
     </Subtitle>
     <Text fontSize={[2]} color="black" heavy mb={[6]}>
       <FormattedMessage id="jobs.accordion4.description" />
     </Text>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion4.projects.title" />
+      <FormattedMessage id="jobs.accordion4.responsibilities.title" />
+    </Subtitle>
+    <NumberedList>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.responsibilities.item1" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.responsibilities.item2" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.responsibilities.item3" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.responsibilities.item4" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.responsibilities.item5" />
+      </NumberedListItem>
+    </NumberedList>
+
+    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
+      <FormattedMessage id="jobs.accordion4.requirements.title" />
+    </Subtitle>
+    <NumberedList>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.requirements.item2" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.requirements.item3" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.requirements.item4" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.requirements.item5" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.requirements.item6" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.requirements.item7" />
+      </NumberedListItem>
+    </NumberedList>
+
+    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
+      <FormattedMessage id="jobs.accordion4.priority.title" />
+    </Subtitle>
+    <NumberedList>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.priority.item1" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.priority.item2" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.priority.item3" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.priority.item4" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.priority.item5" />
+      </NumberedListItem>
+    </NumberedList>
+
+    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
+      <FormattedMessage id="jobs.accordion4.program.title" />
+    </Subtitle>
+    <NumberedList>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.program.item1" />
+      </NumberedListItem>
+      <NumberedListItem>
+        <FormattedMessage id="jobs.accordion4.program.item2" />
+      </NumberedListItem>
+    </NumberedList>
+  </div>
+);
+const renderAccordion2Content = () => (
+  <div>
+    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
+      <FormattedMessage id="jobs.accordion5.description" />
+    </Subtitle>
+    <Text fontSize={[2]} color="black" heavy mb={[6]}>
+      <FormattedMessage id="jobs.accordion2.description" />
+    </Text>
+
+    <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
+      <FormattedMessage id="jobs.accordion2.projects.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
@@ -402,17 +402,17 @@ const renderAccordion4Content = () => (
     </NumberedList>
   </div>
 );
-const renderAccordion5Content = () => (
+const renderAccordion3Content = () => (
   <div>
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion2.description" />
+      <FormattedMessage id="jobs.accordion5.description" />
     </Subtitle>
     <Text fontSize={[2]} color="black" heavy mb={[6]}>
-      <FormattedMessage id="jobs.accordion5.description" />
+      <FormattedMessage id="jobs.accordion3.description" />
     </Text>
 
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion4.projects.title" />
+      <FormattedMessage id="jobs.accordion3.projects.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
@@ -424,20 +424,20 @@ const renderAccordion5Content = () => (
     </NumberedList>
   </div>
 );
-const renderAccordion6Content = () => (
+const renderAccordion1Content = () => (
   <div>
     <Subtitle fontSize={[2, 2, 3]} heavy mb={[2, 3]}>
-      <FormattedMessage id="jobs.accordion6.responsibilities.title" />
+      <FormattedMessage id="jobs.accordion1.responsibilities.title" />
     </Subtitle>
     <NumberedList>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion6.responsibilities.item1" />
+        <FormattedMessage id="jobs.accordion1.responsibilities.item1" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion6.responsibilities.item2" />
+        <FormattedMessage id="jobs.accordion1.responsibilities.item2" />
       </NumberedListItem>
       <NumberedListItem>
-        <FormattedMessage id="jobs.accordion6.responsibilities.item3" />
+        <FormattedMessage id="jobs.accordion1.responsibilities.item3" />
       </NumberedListItem>
     </NumberedList>
   </div>

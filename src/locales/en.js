@@ -655,7 +655,7 @@ export default {
     or: ' or ',
     react: 'React.js.',
     ourTeam: 'Our team is spread across the world and you will be working either remotely or at one of our offices in Shanghai. We communicate using',
-    accordion1: {
+    accordion5: {
       title: 'Mechanical Engineer',
       description: 'Description',
       study: 'Study relevant technical materials to compile the proper English materials for foreign members making up 80% of total team members. Good proficiency in English reading and writing is a requirement for admission',
@@ -689,7 +689,7 @@ export default {
         item2: 'Welcome to all of outstanding undergraduates and fresh graduates to take part in internship plan. Upon completion of the internship period, satisfactory trainees shall be given permanent posts.',
       },
     },
-    accordion2: {
+    accordion6: {
       title: 'Industrial Designer OR Intern',
       description: 'Description',
       subtitle: 'Study relevant technical materials to compile the proper English materials for foreign members making up 80% of total team members. Good proficiency in English is a requirement for admission',
@@ -722,7 +722,7 @@ export default {
         item2: 'Welcome to all of outstanding undergraduates and fresh graduates to take part in internship plan. Upon completion of the internship period, satisfactory trainees shall be given permanent posts.',
       },
     },
-    accordion3: {
+    accordion4: {
       title: 'Circuit Engineer',
       description: 'Study relevant technical materials to compile the proper English materials for foreign members making up 80% of total team members. Good proficiency in English reading and writing is a requirement for admission.',
       responsibilities: {
@@ -757,21 +757,21 @@ export default {
         item2: 'Welcome to all of outstanding undergraduates and fresh graduates to take part in internship plan. Upon completion of the internship period, satisfactory trainees shall be given permanent posts.',
       },
     },
-    accordion4: {
+    accordion2: {
       title: 'Software Engineer (Backend)',
       description: 'Work on a fully remote team developing blockchain-, networking- and infrastructure-related software. Experience writing in Go (Golang) required.',
       projects: {
         title: 'A Sample of Active Projects',
       },
     },
-    accordion5: {
+    accordion3: {
       title: 'Firmware Engineer',
       description: 'Work on a fully remote team developing firmware and embedded software for various hardware projects.',
       projects: {
         title: 'A Sample of Active Projects',
       },
     },
-    accordion6: {
+    accordion1: {
       title: 'Technical writer',
       responsibilities: {
         title: 'Responsibilities',
